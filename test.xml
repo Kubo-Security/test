@@ -1,26 +1,569 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<rss version="2.0">
-    <channel>
-   
-        <title>Mon site web</title>
-        <link>http://monsiteweb.com</link>
-        <description>Les news de mon site web</description>
-       
-        <item>
-            <title>Un site web pour partager ses signets</title>
-            <link>http://del.icio.us</link>
-            <guid isPermaLink="true">http://del.icio.us</guid>
-            <description>Le site http://del.icio.us permet de partager vos signets et d'y accéder où que vous soyez.</description>
-            <pubDate>Wed, 5 Aug 2005 19:30:00 GMT</pubDate>
-        </item>
-       
-        <item>
-            <title>Enfin un flux RSS !</title>
-            <link>http://monsiteweb.com/rss.html</link>
-            <guid isPermaLink="true">http://monsiteweb.com/rss.html</guid>
-            <description>Un flux RSS a été installé sur mon site. Vous pouvez le consulter avec votre logiciel favori.</description>
-            <pubDate>Wed, 3 Aug 2005 15:17:00 GMT</pubDate>
-        </item>
-       
-    </channel>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Korben</title>
+	<atom:link href="https://korben.info/feed" rel="self" type="application/rss+xml" />
+	<link>https://korben.info</link>
+	<description>Upgrade your mind</description>
+	<lastBuildDate>Wed, 13 May 2020 09:34:09 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://korben.info/app/uploads/2019/07/cropped-android-chrome-512x512-32x32.png</url>
+	<title>Korben</title>
+	<link>https://korben.info</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Une bibliothèque CSS pour adopter le style de Windows 98</title>
+		<link>https://korben.info/une-bibliotheque-css-pour-adopter-le-style-de-windows-98.html</link>
+					<comments>https://korben.info/une-bibliotheque-css-pour-adopter-le-style-de-windows-98.html#respond</comments>
+		
+		<dc:creator><![CDATA[Korben]]></dc:creator>
+		<pubDate>Thu, 14 May 2020 07:00:00 +0000</pubDate>
+				<category><![CDATA[Développement]]></category>
+		<category><![CDATA[Développeurs]]></category>
+		<category><![CDATA[98.css]]></category>
+		<category><![CDATA[bibliothèque CSS]]></category>
+		<category><![CDATA[Windows 98]]></category>
+		<guid isPermaLink="false">https://korben.info/?p=114759</guid>
+
+					<description><![CDATA[Si vous avez envie de coder un site au look un poil rétro, pourquoi ne pas opter pour la bibliothèque CSS 98.css ? 98 comme Windows 98 bien sûr ! C&#8217;est-à-dire tous les styles de contrôles qu&#8217;on pouvait trouver dans Windows 98 : les boutons, les checkbox, les textbox, les &#8230; <a href="https://korben.info/une-bibliotheque-css-pour-adopter-le-style-de-windows-98.html">Suite</a>]]></description>
+										<content:encoded><![CDATA[<p><img width="1031" height="771" src="https://korben.info/app/uploads/2020/04/Machine-virtuelle-Windows-98-SE8.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://korben.info/app/uploads/2020/04/Machine-virtuelle-Windows-98-SE8.png 1031w, https://korben.info/app/uploads/2020/04/Machine-virtuelle-Windows-98-SE8-300x224.png 300w, https://korben.info/app/uploads/2020/04/Machine-virtuelle-Windows-98-SE8-1024x766.png 1024w, https://korben.info/app/uploads/2020/04/Machine-virtuelle-Windows-98-SE8-768x574.png 768w" sizes="(max-width: 1031px) 100vw, 1031px" data-attachment-id="114762" data-permalink="https://korben.info/une-bibliotheque-css-pour-adopter-le-style-de-windows-98.html/machine-virtuelle-windows-98-se8" data-orig-file="https://korben.info/app/uploads/2020/04/Machine-virtuelle-Windows-98-SE8.png" data-orig-size="1031,771" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Machine-virtuelle-Windows-98-SE8" data-image-description="" data-medium-file="https://korben.info/app/uploads/2020/04/Machine-virtuelle-Windows-98-SE8-300x224.png" data-large-file="https://korben.info/app/uploads/2020/04/Machine-virtuelle-Windows-98-SE8-1024x766.png"></p>
+<p>Si vous avez envie de coder un site au look un poil rétro, pourquoi ne pas opter pour la bibliothèque CSS <a href="https://jdan.github.io/98.css/#intro">98.css</a> ?</p>
+
+
+
+<p>98 comme Windows 98 bien sûr ! C&rsquo;est-à-dire tous les styles de contrôles qu&rsquo;on pouvait trouver dans Windows 98 : les boutons, les checkbox, les textbox, les listes déroulantes, les fenêtres&#8230;etc.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img data-attachment-id="114760" data-permalink="https://korben.info/une-bibliotheque-css-pour-adopter-le-style-de-windows-98.html/korben20200417144706-1" data-orig-file="https://korben.info/app/uploads/2020/04/korben20200417144706-1.png" data-orig-size="564,246" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="korben20200417144706-1" data-image-description="" data-medium-file="https://korben.info/app/uploads/2020/04/korben20200417144706-1-300x131.png" data-large-file="https://korben.info/app/uploads/2020/04/korben20200417144706-1.png" src="https://korben.info/app/uploads/2020/04/korben20200417144706-1.png" alt="" class="wp-image-114760" width="454" height="198" srcset="https://korben.info/app/uploads/2020/04/korben20200417144706-1.png 564w, https://korben.info/app/uploads/2020/04/korben20200417144706-1-300x131.png 300w" sizes="(max-width: 454px) 100vw, 454px" /></figure></div>
+
+
+
+<p>Ça ne sert pas à grand-chose, mais c&rsquo;est rigolo. Peut-être que cela vous donnera envie de décliner une version de votre site web avec cette interface ?</p>
+
+
+
+<p>En tout cas, si vous voulez jouer avec, <a href="https://github.com/jdan/98.css">le projet est ici sur Github</a> et il y a une <a href="https://codesandbox.io/s/late-sound-miqho?file=/index.html">petite sandbox ouverte ici</a> pour jouer avec.</p>
+<div id="Br7KnYve-594128496" data-cfpa="113893"><p><a href="https://kbn.korben.info/privacy-cyb" target="_blank"><img src="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg" alt="" width="600" height="282" class="aligncenter size-full wp-image-113892" srcset="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg 600w, https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat-300x141.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+</div><script type="text/javascript">;new advadsCfpAd( 113893 );</script>]]></content:encoded>
+					
+					<wfw:commentRss>https://korben.info/une-bibliotheque-css-pour-adopter-le-style-de-windows-98.html/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>La chaine vidéo du mois : La Quadrature du Net</title>
+		<link>https://korben.info/chaine-video-quadrature-du-net.html</link>
+					<comments>https://korben.info/chaine-video-quadrature-du-net.html#respond</comments>
+		
+		<dc:creator><![CDATA[Korben]]></dc:creator>
+		<pubDate>Wed, 13 May 2020 09:34:04 +0000</pubDate>
+				<category><![CDATA[Vidéo]]></category>
+		<category><![CDATA[chaine vidéo]]></category>
+		<category><![CDATA[La Quadrature du Net]]></category>
+		<guid isPermaLink="false">https://korben.info/?p=115068</guid>
+
+					<description><![CDATA[Sur les rézeaux soziaux on me demande régulièrement qu&#8217;elles sont mes sources d&#8217;inspirations, les endroits où je fais ma veille, etc. Et si je détaillerai tout le processus en détail dans une formation dédiée un jour prochain, les vidéos occupent une certaine place. Difficile de passer à côté en 2020 &#8230; <a href="https://korben.info/chaine-video-quadrature-du-net.html">Suite</a>]]></description>
+										<content:encoded><![CDATA[<p><img width="1200" height="623" src="https://korben.info/app/uploads/2020/05/la-quadrature-du-net-logo.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="La Quadrature du Net Logo" srcset="https://korben.info/app/uploads/2020/05/la-quadrature-du-net-logo.jpg 1200w, https://korben.info/app/uploads/2020/05/la-quadrature-du-net-logo-300x156.jpg 300w, https://korben.info/app/uploads/2020/05/la-quadrature-du-net-logo-1024x532.jpg 1024w, https://korben.info/app/uploads/2020/05/la-quadrature-du-net-logo-768x399.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px" data-attachment-id="115073" data-permalink="https://korben.info/chaine-video-quadrature-du-net.html/la-quadrature-du-net-logo" data-orig-file="https://korben.info/app/uploads/2020/05/la-quadrature-du-net-logo.jpg" data-orig-size="1200,623" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="la-quadrature-du-net-logo" data-image-description="" data-medium-file="https://korben.info/app/uploads/2020/05/la-quadrature-du-net-logo-300x156.jpg" data-large-file="https://korben.info/app/uploads/2020/05/la-quadrature-du-net-logo-1024x532.jpg"></p>
+<p>Sur les rézeaux soziaux on me demande régulièrement qu&rsquo;elles sont mes sources d&rsquo;inspirations, les endroits où je fais ma veille, etc. Et si je détaillerai tout le processus en détail dans une formation dédiée un jour prochain, les vidéos occupent une certaine place. Difficile de passer à côté en 2020 tant le contenu vidéo de qualité existe : aussi bien sûr YouTube qu&rsquo;ailleurs.</p>
+
+
+
+<p>Du coup je me suis dit que ça pourrait être pas mal de présenter chaque mois une chaine qu&rsquo;il m&rsquo;arrive de suivre ou sur laquelle je m&rsquo;informe. Attention ça tape large, vous me connaissez assez pour savoir que mes centres d&rsquo;intérêt sont plutôt variés.</p>
+
+
+
+<p>En plus ça mettra un petit coup de projo sur les personnes derrière ces chaines. Donc, si vous aimez ce dont ils parlent n&rsquo;hésitez pas à les soutenir avec un petit partage, un like, un commentaire ou un petit don. C&rsquo;est une manière de leur faire savoir que leur contenu vous plait et les motiver un peu plus à continuer.</p>
+
+
+
+<p>Et comment ne pas commencer cette série par nos amis de <a href="https://www.laquadrature.net/">La Quadrature du Net</a> ?</p>
+
+
+
+<p>Je ne vous présente plus l&rsquo;association, j&rsquo;en ai <a href="https://korben.info/la-quadrature-du-net-sur-le-fil-du-rasoir.html">parlé ici</a> notamment, mais je voulais mettre en avant <a href="https://video.lqdn.fr/">leur section vidéo</a>.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-attachment-id="115069" data-permalink="https://korben.info/chaine-video-quadrature-du-net.html/chaine-video-la-quadrature-du-net" data-orig-file="https://korben.info/app/uploads/2020/05/chaine-video-la-quadrature-du-net.jpg" data-orig-size="1200,588" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="chaine-video-la-quadrature-du-net" data-image-description="" data-medium-file="https://korben.info/app/uploads/2020/05/chaine-video-la-quadrature-du-net-300x147.jpg" data-large-file="https://korben.info/app/uploads/2020/05/chaine-video-la-quadrature-du-net-1024x502.jpg" src="https://korben.info/app/uploads/2020/05/chaine-video-la-quadrature-du-net-1024x502.jpg" alt="Espace vidéo de la Quadrature du Net" class="wp-image-115069" srcset="https://korben.info/app/uploads/2020/05/chaine-video-la-quadrature-du-net-1024x502.jpg 1024w, https://korben.info/app/uploads/2020/05/chaine-video-la-quadrature-du-net-300x147.jpg 300w, https://korben.info/app/uploads/2020/05/chaine-video-la-quadrature-du-net-768x376.jpg 768w, https://korben.info/app/uploads/2020/05/chaine-video-la-quadrature-du-net.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Vous y retrouverez des créations personnelles ainsi que leurs interventions en extérieur (à la radio, à la télé, etc.), des captations audio de conférences qu&rsquo;ils donnent, mais aussi des extraits d&rsquo;émissions grand public traitant de leurs sujets de prédilections comme la surveillance, l&rsquo;atteinte aux libertés individuelles &#8230;</p>
+
+
+
+<p>En ce moment ça parle pas mal de crise sanitaire, mais aussi de tous les dispositifs sécuritaires mis en place et qui peuvent poser problème : drone, vidéosurveillance, cadre juridique &#8230; Au total plus de 650 vidéos sont dispos donc il y a de quoi faire. Même si la plupart des contenus sont dispos sur d&rsquo;autres plateformes, profitez de leur hub PeerTube et faites monter les compteurs de vues 😉</p>
+
+
+
+<p><a href="https://video.lqdn.fr/">&gt;&gt; Accéder à la chaine vidéo de LQDN</a></p>
+
+
+
+<p>Vous pouvez soutenir l&rsquo;initiative <a href="https://www.laquadrature.net/donner/">via un don</a> et les suivre <a href="https://twitter.com/laquadrature">sur Twitter</a> ou <a href="https://www.facebook.com/LaQuadrature/">sur Facebook</a>.</p>
+<div id="Br7KnYve-1287947131" data-cfpa="113893"><p><a href="https://kbn.korben.info/privacy-cyb" target="_blank"><img src="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg" alt="" width="600" height="282" class="aligncenter size-full wp-image-113892" srcset="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg 600w, https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat-300x141.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+</div><script type="text/javascript">;new advadsCfpAd( 113893 );</script>]]></content:encoded>
+					
+					<wfw:commentRss>https://korben.info/chaine-video-quadrature-du-net.html/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Stanford Pupper &#8211; Le robot chien Raspberry Pi</title>
+		<link>https://korben.info/stanford-pupper-le-robot-chien-raspberry-pi.html</link>
+					<comments>https://korben.info/stanford-pupper-le-robot-chien-raspberry-pi.html#respond</comments>
+		
+		<dc:creator><![CDATA[Korben]]></dc:creator>
+		<pubDate>Wed, 13 May 2020 09:29:42 +0000</pubDate>
+				<category><![CDATA[Raspberry]]></category>
+		<category><![CDATA[Robotique]]></category>
+		<category><![CDATA[boston dynamics]]></category>
+		<category><![CDATA[chien robot]]></category>
+		<category><![CDATA[robot raspberry pi]]></category>
+		<category><![CDATA[stanford pupper]]></category>
+		<guid isPermaLink="false">https://korben.info/?p=115076</guid>
+
+					<description><![CDATA[Vous vous souvenez de ce robot de Boston Dynamics, qui patrouille dans les parcs de Singapour pour faire respecter les distances physiques aux gens qui s&#8217;y promènent ? Et bien bonne nouvelle ! Si vous avez un Raspberry Pi, un peu de temps et un petit paquet de thunes, vous &#8230; <a href="https://korben.info/stanford-pupper-le-robot-chien-raspberry-pi.html">Suite</a>]]></description>
+										<content:encoded><![CDATA[<p><img width="1024" height="768" src="https://korben.info/app/uploads/2020/05/pupper_cropped.jpeg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://korben.info/app/uploads/2020/05/pupper_cropped.jpeg 1024w, https://korben.info/app/uploads/2020/05/pupper_cropped-300x225.jpeg 300w, https://korben.info/app/uploads/2020/05/pupper_cropped-768x576.jpeg 768w" sizes="(max-width: 1024px) 100vw, 1024px" data-attachment-id="115077" data-permalink="https://korben.info/stanford-pupper-le-robot-chien-raspberry-pi.html/pupper_cropped" data-orig-file="https://korben.info/app/uploads/2020/05/pupper_cropped.jpeg" data-orig-size="1024,768" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1580245818&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pupper_cropped" data-image-description="" data-medium-file="https://korben.info/app/uploads/2020/05/pupper_cropped-300x225.jpeg" data-large-file="https://korben.info/app/uploads/2020/05/pupper_cropped.jpeg"></p>
+<p>Vous vous souvenez de ce robot de <a href="https://korben.info/search/boston+dynamics"><strong>Boston Dynamics</strong></a>, qui patrouille dans les parcs de Singapour pour faire respecter les distances physiques aux gens qui s&rsquo;y promènent ? </p>
+
+
+
+<figure class="wp-block-embed-youtube aligncenter wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<div class="entry-content-asset"><iframe title="Spot robot patrolling Bishan-Ang Mo Kio Park | The Straits Times" width="800" height="450" src="https://www.youtube.com/embed/viuR7N6E2LA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div></figure>
+
+
+
+<p>Et bien bonne nouvelle ! Si vous avez un Raspberry Pi, un peu de temps et un petit paquet de thunes, vous allez pouvoir créer votre propre toutou robot !</p>
+
+
+
+<p>C&rsquo;est ce qu&rsquo;ont fait des étudiants de l&rsquo;université de Stanford qui ont mis au point ce petit robot équipé de 12 servomoteurs, de parties imprimées en 3D, mais également en fibre de carbone.</p>
+
+
+
+<p>Comptez quand même entre 600 et 900 $ pour les pièces, ce qui représente un gros budget, mais pour un chien robot, c&rsquo;est un coût plutôt faible.</p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<div class="entry-content-asset"><iframe title="Stanford Pupper" width="800" height="450" src="https://www.youtube.com/embed/NIjodHA78UE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div></figure>
+
+
+
+<p>Si le projet vous intéresse, <a href="https://stanfordstudentrobotics.org/pupper">tout est expliqué sur leur site web</a> ou <a href="https://docs.google.com/document/d/1Ofrtlmh0dQoEvRji5PUVH9bgwHnR-8KkTXR1eMLzXh0/edit">dans ce document</a> et <a href="https://github.com/stanfordroboticsclub/StanfordQuadruped">le code source de ce Stanford Pupper est ici</a>. La <a href="https://docs.google.com/spreadsheets/d/1zZ2e00XdzA7zwb35Ly_HdzfDJcsxMIR_5vjwnf-KW70/edit#gid=226982759">liste de courses est également disponible ici.</a></p>
+
+
+
+<p>Et si vous cherchez des projets moins chers et tout aussi cools à faire avec votre <strong>Raspberry Pi</strong>, je vous invite à consulter <a href="https://korben.info/idees-raspberry-pi.html">ma liste de projets pour le Rpi ici.</a></p>
+<div id="Br7KnYve-1483104208" data-cfpa="113893"><p><a href="https://kbn.korben.info/privacy-cyb" target="_blank"><img src="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg" alt="" width="600" height="282" class="aligncenter size-full wp-image-113892" srcset="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg 600w, https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat-300x141.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+</div><script type="text/javascript">;new advadsCfpAd( 113893 );</script>]]></content:encoded>
+					
+					<wfw:commentRss>https://korben.info/stanford-pupper-le-robot-chien-raspberry-pi.html/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Mes souvenirs retrogaming sur la chaine Recalbox</title>
+		<link>https://korben.info/mes-souvenirs-retrogaming-sur-la-chaine-recalbox.html</link>
+					<comments>https://korben.info/mes-souvenirs-retrogaming-sur-la-chaine-recalbox.html#comments</comments>
+		
+		<dc:creator><![CDATA[Korben]]></dc:creator>
+		<pubDate>Wed, 13 May 2020 09:00:00 +0000</pubDate>
+				<category><![CDATA[Jeu vidéo]]></category>
+		<category><![CDATA[Korben]]></category>
+		<category><![CDATA[recalbox]]></category>
+		<category><![CDATA[youtube]]></category>
+		<guid isPermaLink="false">https://korben.info/?p=115038</guid>
+
+					<description><![CDATA[Salut les amis, petit billet rapide pour vous partager l&#8217;émission de la chaine Recalbox dans laquelle j&#8217;ai eu la chance d&#8217;intervenir afin de partager mes souvenirs autour des vieux jeux vidéos (et des ordis en général). Et comme vous êtes déjà au courant le retrogaming c&#8217;est une partie de ma &#8230; <a href="https://korben.info/mes-souvenirs-retrogaming-sur-la-chaine-recalbox.html">Suite</a>]]></description>
+										<content:encoded><![CDATA[<p><img width="1200" height="675" src="https://korben.info/app/uploads/2020/05/recalbox-korben.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Recalbox Korben" srcset="https://korben.info/app/uploads/2020/05/recalbox-korben.jpg 1200w, https://korben.info/app/uploads/2020/05/recalbox-korben-300x169.jpg 300w, https://korben.info/app/uploads/2020/05/recalbox-korben-1024x576.jpg 1024w, https://korben.info/app/uploads/2020/05/recalbox-korben-768x432.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px" data-attachment-id="115039" data-permalink="https://korben.info/mes-souvenirs-retrogaming-sur-la-chaine-recalbox.html/recalbox-korben" data-orig-file="https://korben.info/app/uploads/2020/05/recalbox-korben.jpg" data-orig-size="1200,675" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="recalbox-korben" data-image-description="" data-medium-file="https://korben.info/app/uploads/2020/05/recalbox-korben-300x169.jpg" data-large-file="https://korben.info/app/uploads/2020/05/recalbox-korben-1024x576.jpg"></p>
+<p>Salut les amis, petit billet rapide pour vous partager l&rsquo;émission de <a href="https://www.twitch.tv/recalbox">la chaine Recalbox</a> dans laquelle j&rsquo;ai eu la chance d&rsquo;intervenir afin de partager mes souvenirs autour des vieux jeux vidéos (et des ordis en général). Et comme vous êtes déjà au courant le retrogaming c&rsquo;est une partie de ma folle jeunesse !</p>
+
+
+
+<p>Je ne vous rappelle pas ce qu&rsquo;est le projet Recalbox, <a href="https://korben.info/recalbox.html">j&rsquo;en ai parlé ici</a>, mais durant 2 heures j&rsquo;ai pu échanger sur leur chaine YouTube concernant mes souvenirs d&rsquo;époque. Avec Fabrice on s&rsquo;est un peu pris pour 2 petits vieux autour d&rsquo;un feu de camp se remémorant la chasse au sanglier de leur adolescence.</p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<div class="entry-content-asset"><iframe title="[LIVE] JOUR 52 : Les souvenirs rétrogaming de Monsieur KORBEN !" width="800" height="450" src="https://www.youtube.com/embed/HSgjb-aDxi8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div></figure>
+
+
+
+<p>Recalbox a mis en place une émission retrogaming quotidienne depuis le premier jour de confinement, chaque fois avec des invités différents : Célia Roy (journaliste et animatrice), Anthony Morel (BFM/RMC), Papi Geek, Carole Quintaine &#8230; et moi depuis ce 7 mai.</p>
+
+
+
+<p>On fait un peu le tour de tout ce qu&rsquo;on a connu : des premiers forfaits connexions Internet, aux logiciels de téléchargements type Kazaa et BitTorrent en passant par mes premiers ordinateurs et mon imprimante minitel (si si). Et il y aura plein d&rsquo;exclus, vous y verrez par exemple mon vieux Commodore SX-64 sur lequel j&rsquo;ai découvert l&rsquo;univers du jeu.</p>
+
+
+
+<p>Dans tous les cas merci à eux d&rsquo;avoir pensé à moi. Je vous invite à découvrir <a href="https://www.youtube.com/channel/UCfcqrtnHwB84YQlVN75PRfQ">la chaine</a> et <a href="https://www.recalbox.com/">le site</a> si vous ne la connaissez pas encore, il y a de vraies belles choses !</p>
+<div id="Br7KnYve-726789780" data-cfpa="113893"><p><a href="https://kbn.korben.info/privacy-cyb" target="_blank"><img src="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg" alt="" width="600" height="282" class="aligncenter size-full wp-image-113892" srcset="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg 600w, https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat-300x141.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+</div><script type="text/javascript">;new advadsCfpAd( 113893 );</script>]]></content:encoded>
+					
+					<wfw:commentRss>https://korben.info/mes-souvenirs-retrogaming-sur-la-chaine-recalbox.html/feed</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>EtreCheck &#8211; Comment diagnostiquer votre Mac en cas de problème ?</title>
+		<link>https://korben.info/etrecheck-comment-diagnostiquer-votre-mac-en-cas-de-probleme.html</link>
+					<comments>https://korben.info/etrecheck-comment-diagnostiquer-votre-mac-en-cas-de-probleme.html#comments</comments>
+		
+		<dc:creator><![CDATA[Korben]]></dc:creator>
+		<pubDate>Wed, 13 May 2020 07:00:00 +0000</pubDate>
+				<category><![CDATA[MacOS]]></category>
+		<category><![CDATA[diagnostic apple]]></category>
+		<category><![CDATA[diagnostiquer imac]]></category>
+		<category><![CDATA[probleme macos]]></category>
+		<category><![CDATA[probleme matériel mac]]></category>
+		<guid isPermaLink="false">https://korben.info/?p=114751</guid>
+
+					<description><![CDATA[J&#8217;ai eu quelques petits déboires techniques avec mon iMac ces derniers jours et je cherchais un moyen de diagnostiquer un peu le machin pour comprendre d&#8217;où venait le problème. Alors bien sûr, j&#8217;ai pensé à la fonctionnalité de diagnostic proposé par Apple qui consiste à maintenir la touche D enfoncée &#8230; <a href="https://korben.info/etrecheck-comment-diagnostiquer-votre-mac-en-cas-de-probleme.html">Suite</a>]]></description>
+										<content:encoded><![CDATA[<p><img width="2560" height="1707" src="https://korben.info/app/uploads/2020/04/domenico-loia-EhTcC9sYXsw-unsplash-scaled.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://korben.info/app/uploads/2020/04/domenico-loia-EhTcC9sYXsw-unsplash-scaled.jpg 2560w, https://korben.info/app/uploads/2020/04/domenico-loia-EhTcC9sYXsw-unsplash-300x200.jpg 300w, https://korben.info/app/uploads/2020/04/domenico-loia-EhTcC9sYXsw-unsplash-1024x683.jpg 1024w, https://korben.info/app/uploads/2020/04/domenico-loia-EhTcC9sYXsw-unsplash-768x512.jpg 768w, https://korben.info/app/uploads/2020/04/domenico-loia-EhTcC9sYXsw-unsplash-1536x1024.jpg 1536w, https://korben.info/app/uploads/2020/04/domenico-loia-EhTcC9sYXsw-unsplash-2048x1365.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" data-attachment-id="114756" data-permalink="https://korben.info/etrecheck-comment-diagnostiquer-votre-mac-en-cas-de-probleme.html/domenico-loia-ehtcc9syxsw-unsplash" data-orig-file="https://korben.info/app/uploads/2020/04/domenico-loia-EhTcC9sYXsw-unsplash-scaled.jpg" data-orig-size="2560,1707" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="domenico-loia-EhTcC9sYXsw-unsplash" data-image-description="" data-medium-file="https://korben.info/app/uploads/2020/04/domenico-loia-EhTcC9sYXsw-unsplash-300x200.jpg" data-large-file="https://korben.info/app/uploads/2020/04/domenico-loia-EhTcC9sYXsw-unsplash-1024x683.jpg"></p>
+<p>J&rsquo;ai eu quelques petits déboires techniques avec mon iMac ces derniers jours et je cherchais un moyen de diagnostiquer un peu le machin pour comprendre d&rsquo;où venait le problème. </p>
+
+
+
+<p>Alors bien sûr, j&rsquo;ai pensé à <a href="https://support.apple.com/fr-fr/guide/mac-help/mh35727/mac">la fonctionnalité de diagnostic</a> proposé par Apple qui consiste <strong>à maintenir la touche D enfoncée</strong> dès le  lancement de l&rsquo;ordinateur. C&rsquo;est pratique pour savoir si un bout de matériel vous fait défaut.</p>
+
+
+
+<p>Mais heureusement rien à signaler à ce niveau. J&rsquo;ai donc cherché un outil un peu moins conventionnel et j&rsquo;ai découvert <strong>EtreCheck</strong>.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img data-attachment-id="114754" data-permalink="https://korben.info/etrecheck-comment-diagnostiquer-votre-mac-en-cas-de-probleme.html/etrecheck2" data-orig-file="https://korben.info/app/uploads/2020/04/etrecheck2.png" data-orig-size="1822,1302" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="etrecheck2" data-image-description="" data-medium-file="https://korben.info/app/uploads/2020/04/etrecheck2-300x214.png" data-large-file="https://korben.info/app/uploads/2020/04/etrecheck2-1024x732.png" src="https://korben.info/app/uploads/2020/04/etrecheck2-1024x732.png" alt="" class="wp-image-114754" srcset="https://korben.info/app/uploads/2020/04/etrecheck2-1024x732.png 1024w, https://korben.info/app/uploads/2020/04/etrecheck2-300x214.png 300w, https://korben.info/app/uploads/2020/04/etrecheck2-768x549.png 768w, https://korben.info/app/uploads/2020/04/etrecheck2-1536x1098.png 1536w, https://korben.info/app/uploads/2020/04/etrecheck2.png 1822w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<figure class="wp-block-image alignwide size-large"><img data-attachment-id="114755" data-permalink="https://korben.info/etrecheck-comment-diagnostiquer-votre-mac-en-cas-de-probleme.html/openad_fr" data-orig-file="https://korben.info/app/uploads/2020/04/openad_fr.png" data-orig-size="1588,1188" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="openad_fr" data-image-description="" data-medium-file="https://korben.info/app/uploads/2020/04/openad_fr-300x224.png" data-large-file="https://korben.info/app/uploads/2020/04/openad_fr-1024x766.png" src="https://korben.info/app/uploads/2020/04/openad_fr-1024x766.png" alt="" class="wp-image-114755" srcset="https://korben.info/app/uploads/2020/04/openad_fr-1024x766.png 1024w, https://korben.info/app/uploads/2020/04/openad_fr-300x224.png 300w, https://korben.info/app/uploads/2020/04/openad_fr-768x575.png 768w, https://korben.info/app/uploads/2020/04/openad_fr-1536x1149.png 1536w, https://korben.info/app/uploads/2020/04/openad_fr.png 1588w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Ce logiciel pour Mac est un utilitaire qui nous vient du Canada et qui permet de trouver toutes sortes de problèmes sur votre Mac, mais aussi de supprimer directement certains logiciels ou certaines extensions non recommandées.</p>
+
+
+
+<p>Et là où EtreCheck est cool, c&rsquo;est qu&rsquo;au-delà du diagnostic, il propose aussi des solutions ou des pistes à explorer pour régler le problème.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img data-attachment-id="114753" data-permalink="https://korben.info/etrecheck-comment-diagnostiquer-votre-mac-en-cas-de-probleme.html/etrecheck1" data-orig-file="https://korben.info/app/uploads/2020/04/etrecheck1.png" data-orig-size="1822,1302" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="etrecheck1" data-image-description="" data-medium-file="https://korben.info/app/uploads/2020/04/etrecheck1-300x214.png" data-large-file="https://korben.info/app/uploads/2020/04/etrecheck1-1024x732.png" src="https://korben.info/app/uploads/2020/04/etrecheck1-1024x732.png" alt="" class="wp-image-114753" srcset="https://korben.info/app/uploads/2020/04/etrecheck1-1024x732.png 1024w, https://korben.info/app/uploads/2020/04/etrecheck1-300x214.png 300w, https://korben.info/app/uploads/2020/04/etrecheck1-768x549.png 768w, https://korben.info/app/uploads/2020/04/etrecheck1-1536x1098.png 1536w, https://korben.info/app/uploads/2020/04/etrecheck1.png 1822w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>L&rsquo;outil est gratuit pour une utilisation standard, mais si vous voulez profiter de fonctionnalités plus avancées il faudra débourser 17 euros.</p>
+
+
+
+<p><a href="https://etrecheck.com">A découvrir ici.</a></p>
+<div id="Br7KnYve-988163870" data-cfpa="113893"><p><a href="https://kbn.korben.info/privacy-cyb" target="_blank"><img src="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg" alt="" width="600" height="282" class="aligncenter size-full wp-image-113892" srcset="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg 600w, https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat-300x141.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+</div><script type="text/javascript">;new advadsCfpAd( 113893 );</script>]]></content:encoded>
+					
+					<wfw:commentRss>https://korben.info/etrecheck-comment-diagnostiquer-votre-mac-en-cas-de-probleme.html/feed</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Webosaures &#8211; Parlons des addictions liées à Internet !</title>
+		<link>https://korben.info/webosaures-addictions-liees-a-internet.html</link>
+					<comments>https://korben.info/webosaures-addictions-liees-a-internet.html#comments</comments>
+		
+		<dc:creator><![CDATA[Korben]]></dc:creator>
+		<pubDate>Tue, 12 May 2020 09:00:00 +0000</pubDate>
+				<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Vidéo]]></category>
+		<category><![CDATA[addiction]]></category>
+		<category><![CDATA[podcast]]></category>
+		<category><![CDATA[webosaures]]></category>
+		<guid isPermaLink="false">https://korben.info/?p=115034</guid>
+
+					<description><![CDATA[De retour cette semaine pour un nouvel épisode des Webosaures avec l&#8217;ami Rémi ! Nous avons consacré cette émission à parler des addictions liées aux Internets au sens large. Il y a quelques mois nous avions mis en avant l&#8217;addiction aux réseaux sociaux et il y a quasi un an &#8230; <a href="https://korben.info/webosaures-addictions-liees-a-internet.html">Suite</a>]]></description>
+										<content:encoded><![CDATA[<p><img width="1500" height="500" src="https://korben.info/app/uploads/2020/02/les-webosaures.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Les Webosaures - émission web et Tech" srcset="https://korben.info/app/uploads/2020/02/les-webosaures.jpg 1500w, https://korben.info/app/uploads/2020/02/les-webosaures-300x100.jpg 300w, https://korben.info/app/uploads/2020/02/les-webosaures-1024x341.jpg 1024w, https://korben.info/app/uploads/2020/02/les-webosaures-768x256.jpg 768w" sizes="(max-width: 1500px) 100vw, 1500px" data-attachment-id="113020" data-permalink="https://korben.info/webosaures-quizosaure-what-the-job.html/les-webosaures" data-orig-file="https://korben.info/app/uploads/2020/02/les-webosaures.jpg" data-orig-size="1500,500" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="les-webosaures" data-image-description="" data-medium-file="https://korben.info/app/uploads/2020/02/les-webosaures-300x100.jpg" data-large-file="https://korben.info/app/uploads/2020/02/les-webosaures-1024x341.jpg"></p>
+<p>De retour cette semaine pour un nouvel <a href="http://webosaures.com/">épisode des Webosaures</a> avec l&rsquo;ami Rémi ! Nous avons consacré cette émission à parler des addictions liées aux Internets au sens large. </p>
+
+
+
+<p>Il y a quelques mois nous avions mis en avant l&rsquo;<a href="https://korben.info/webosaures-les-effets-psychologiques-pervers-des-reseaux-sociaux.html">addiction aux réseaux sociaux</a> et il y a quasi un an nous avions parlé de l&rsquo;addiction aux smartphones lors de la sortie de <a href="https://korben.info/livres">mon livre</a> sur le sujet.</p>
+
+
+
+<p>Est-ce que la question des dépendances serait un thème récursif ? Bien vite l&rsquo;épisode sur les M&amp;Ms et les Doritos. D&rsquo;ailleurs on profite de l&rsquo;occasion de vous dire qu&rsquo;on s&rsquo;organise un peu, à découvrir dans la vidéo 😉</p>
+
+
+
+<figure class="wp-block-embed-youtube aligncenter wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<div class="entry-content-asset"><iframe title="Parlons des addictions liées à internet !" width="800" height="450" src="https://www.youtube.com/embed/vuCKX8BVjds?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div></figure>
+
+
+
+<p>Ce n&rsquo;est un secret pour personne, Internet rend accro. Parfois c&rsquo;est très subtil, mais souvent cela nous accapare des heures chaque jour. Pourquoi est-ce que nous tombons souvent dans les pièges tendus ? Dark design, fix de dopamine, FOMO &#8230; tout est en place pour nous faire tomber dans le panneau.</p>
+
+
+
+<p>Car il existe de nombreuses addictions liées à Internet, et on va aborder de nombreuses thématiques assez différentes : le travail, le porno, le jeu en ligne (vidéo ou d&rsquo;argent), les réseaux sociaux, la peur de rater une info &#8230; est-ce que vous vous retrouvez dans l&rsquo;un ou l&rsquo;autre ? Viendez nous en parler.</p>
+
+
+
+<p>Nous suivre sur nos réseaux : <a href="https://www.instagram.com/webosaures/">Instagram</a> – <a href="https://twitter.com/webosaures">Twitter</a> – <a href="https://www.facebook.com/webosaures/">Facebook</a> – <a href="https://www.twitch.tv/webosaures">Twitch</a> – <a href="https://www.youtube.com/channel/UCu34Tq5qMR-FiTYwLyy9U6w">YouTube</a> ou au format podcast sur <a href="https://smartlink.ausha.co/webosaures-1">toutes les plateformes</a> du moment.</p>
+
+
+
+<p>À très vite pour la prochaine émission !</p>
+<div id="Br7KnYve-993764465" data-cfpa="113893"><p><a href="https://kbn.korben.info/privacy-cyb" target="_blank"><img src="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg" alt="" width="600" height="282" class="aligncenter size-full wp-image-113892" srcset="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg 600w, https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat-300x141.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+</div><script type="text/javascript">;new advadsCfpAd( 113893 );</script>]]></content:encoded>
+					
+					<wfw:commentRss>https://korben.info/webosaures-addictions-liees-a-internet.html/feed</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Donnez de la couleur à vos dossiers Windows avec Folder Painter</title>
+		<link>https://korben.info/donnez-de-la-couleur-a-vos-dossiers-windows-avec-folder-painter.html</link>
+					<comments>https://korben.info/donnez-de-la-couleur-a-vos-dossiers-windows-avec-folder-painter.html#comments</comments>
+		
+		<dc:creator><![CDATA[Korben]]></dc:creator>
+		<pubDate>Tue, 12 May 2020 07:00:00 +0000</pubDate>
+				<category><![CDATA[Download]]></category>
+		<category><![CDATA[Folder Painter]]></category>
+		<category><![CDATA[ICO]]></category>
+		<category><![CDATA[personnaliser icone]]></category>
+		<category><![CDATA[windows]]></category>
+		<guid isPermaLink="false">https://korben.info/?p=114579</guid>
+
+					<description><![CDATA[Folder Painter est un petit freeware pour Windows (7 et supérieur) qui pourrait vous plaire si vous êtes du genre super organisé ou que vous aimez mettre tous vos fichiers dans des tonnes de dossiers spécifiques. Ou si vous voulez juste gagner du temps en visualisant vos contenus. Plutôt que &#8230; <a href="https://korben.info/donnez-de-la-couleur-a-vos-dossiers-windows-avec-folder-painter.html">Suite</a>]]></description>
+										<content:encoded><![CDATA[<p><img width="952" height="534" src="https://korben.info/app/uploads/2020/04/peintre.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://korben.info/app/uploads/2020/04/peintre.jpg 952w, https://korben.info/app/uploads/2020/04/peintre-300x168.jpg 300w, https://korben.info/app/uploads/2020/04/peintre-768x431.jpg 768w" sizes="(max-width: 952px) 100vw, 952px" data-attachment-id="114582" data-permalink="https://korben.info/donnez-de-la-couleur-a-vos-dossiers-windows-avec-folder-painter.html/peintre" data-orig-file="https://korben.info/app/uploads/2020/04/peintre.jpg" data-orig-size="952,534" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="peintre" data-image-description="" data-medium-file="https://korben.info/app/uploads/2020/04/peintre-300x168.jpg" data-large-file="https://korben.info/app/uploads/2020/04/peintre.jpg"></p>
+<p><a href="https://www.sordum.org/10124/folder-painter-v1-2/">Folder Painter</a> est un petit freeware pour Windows (7 et supérieur) qui pourrait vous plaire si vous êtes du genre super organisé ou que vous aimez mettre tous vos fichiers dans des tonnes de dossiers spécifiques. Ou si vous voulez juste gagner du temps en visualisant vos contenus.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://media.giphy.com/media/2vjWzfIenh147EDkml/giphy.gif" alt=""/></figure></div>
+
+
+
+<p>Plutôt que d&rsquo;avoir une liste de dossiers qui apparaissent tous avec la même icône classique vous pourrez personnaliser cette dernière via toute une palette de couleurs. Ce qui vous permettra de repérer plus rapidement ce que vous cherchez plutôt que de scanner vos dossiers (surtout s&rsquo;ils ne sont pas bien nommés).</p>
+
+
+
+<p>Ce qui peut être intéressant c&rsquo;est de lier une couleur qui rappelle la thématique d&rsquo;un dossier précis. Vert pour votre dossier jardinage, rouge pour ce qu&rsquo;il est urgent de traiter, jaune comme la couleur de votre voiture pour votre assurance auto ou encore marron pour les factures de vos ennuis gastriques. À vous de faire des associations qui vous parlent.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img data-attachment-id="114580" data-permalink="https://korben.info/donnez-de-la-couleur-a-vos-dossiers-windows-avec-folder-painter.html/folder-painter" data-orig-file="https://korben.info/app/uploads/2020/04/folder-painter.jpg" data-orig-size="502,377" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="folder-painter" data-image-description="" data-medium-file="https://korben.info/app/uploads/2020/04/folder-painter-300x225.jpg" data-large-file="https://korben.info/app/uploads/2020/04/folder-painter.jpg" src="https://korben.info/app/uploads/2020/04/folder-painter.jpg" alt="Folder Painter, installer des packs d'icônes" class="wp-image-114580" srcset="https://korben.info/app/uploads/2020/04/folder-painter.jpg 502w, https://korben.info/app/uploads/2020/04/folder-painter-300x225.jpg 300w" sizes="(max-width: 502px) 100vw, 502px" /></figure></div>
+
+
+
+<p>Pour utiliser le logiciel, c&rsquo;est facile, il suffit de le télécharger et de le lancer. Vous aurez alors par défaut la possibilité d&rsquo;utiliser 3 packs d&rsquo;icônes différents, donc sélectionnez le(s) pack(s) qui vous intéressent et cliquez sur « Installer ». Une fois que c&rsquo;est fait, il reste à faire un clic droit sur les dossiers à modifier et utiliser le menu contextuel pour choisir la couleur voulue. </p>
+
+
+
+<p>Ce petit outil est vraiment simple et dispo en français. Et, bien sûr, vous pouvez toujours faire marche arrière et revenir à l&rsquo;icône de base.</p>
+
+
+
+<p>Mais là ou ça pourrait vous intéresser un peu plus (surtout si vous êtes daltonien) c&rsquo;est qu&rsquo;il est possible d&rsquo;ajouter ses packs d&rsquo;icônes personnalisés pour autant que le format .ico soit respecté. Vous pouvez donc très bien transformer une image JPG ou PNG en format ICO (via un site comme <a href="https://convertio.co/fr/jpg-ico/">Convertio</a> par exemple), ce qui sera encore plus parlant d&rsquo;un point de vue visuel.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img data-attachment-id="114581" data-permalink="https://korben.info/donnez-de-la-couleur-a-vos-dossiers-windows-avec-folder-painter.html/folder-painter-ajouter-des-icones" data-orig-file="https://korben.info/app/uploads/2020/04/folder-painter-ajouter-des-icones.jpg" data-orig-size="502,377" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="folder-painter-ajouter-des-icones" data-image-description="" data-medium-file="https://korben.info/app/uploads/2020/04/folder-painter-ajouter-des-icones-300x225.jpg" data-large-file="https://korben.info/app/uploads/2020/04/folder-painter-ajouter-des-icones.jpg" src="https://korben.info/app/uploads/2020/04/folder-painter-ajouter-des-icones.jpg" alt="Personnaliser ses icônes avec Folder Painter" class="wp-image-114581" srcset="https://korben.info/app/uploads/2020/04/folder-painter-ajouter-des-icones.jpg 502w, https://korben.info/app/uploads/2020/04/folder-painter-ajouter-des-icones-300x225.jpg 300w" sizes="(max-width: 502px) 100vw, 502px" /></figure></div>
+
+
+
+<p>Pour cela, cliquez simplement sur « Ajouter nouveau menu », renommez votre dossier puis cliquez sur chaque élément de la liste (Icône 1, 2, 3 &#8230;) et sélectionnez l&rsquo;image à ajouter. Une fois que vous avez terminé, installez le pack et c&rsquo;est tout bon.</p>
+
+
+
+<p>Je vous laisse exprimer votre créativité 😉</p>
+
+
+
+<p><a href="https://www.sordum.org/10124/folder-painter-v1-2/">Source</a></p>
+<div id="Br7KnYve-1150765480" data-cfpa="113893"><p><a href="https://kbn.korben.info/privacy-cyb" target="_blank"><img src="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg" alt="" width="600" height="282" class="aligncenter size-full wp-image-113892" srcset="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg 600w, https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat-300x141.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+</div><script type="text/javascript">;new advadsCfpAd( 113893 );</script>]]></content:encoded>
+					
+					<wfw:commentRss>https://korben.info/donnez-de-la-couleur-a-vos-dossiers-windows-avec-folder-painter.html/feed</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Liens de la semaine – LDS #12 : Port du masque, amie virtuelle, exploit iOS, Bug Bounty, sabotage de fibres&#8230;</title>
+		<link>https://korben.info/liens-de-la-semaine-lds-12-port-du-masque-amie-virtuelle-exploit-ios-bug-bounty-sabotage-de-fibres.html</link>
+					<comments>https://korben.info/liens-de-la-semaine-lds-12-port-du-masque-amie-virtuelle-exploit-ios-bug-bounty-sabotage-de-fibres.html#comments</comments>
+		
+		<dc:creator><![CDATA[Korben]]></dc:creator>
+		<pubDate>Mon, 11 May 2020 10:17:38 +0000</pubDate>
+				<category><![CDATA[Korben]]></category>
+		<category><![CDATA[Liens]]></category>
+		<category><![CDATA[LDS]]></category>
+		<category><![CDATA[Liens de la semaine]]></category>
+		<guid isPermaLink="false">https://korben.info/?p=115042</guid>
+
+					<description><![CDATA[Épisode à la bourre, je sais ! C&#8217;est ça d&#8217;avoir un emploi de ministre confiné. Parce qu&#8217;entre les autres émissions à enregistrer, mes prochaines formations à tourner, les sablés au parmesan, le combat contre les envahisseurs et la gestion quotidienne de l&#8217;Internet mondial, c&#8217;est la fast life en ce moment. &#8230; <a href="https://korben.info/liens-de-la-semaine-lds-12-port-du-masque-amie-virtuelle-exploit-ios-bug-bounty-sabotage-de-fibres.html">Suite</a>]]></description>
+										<content:encoded><![CDATA[<p><img width="2560" height="1748" src="https://korben.info/app/uploads/2020/02/david-hurley-MOM0aPcKWhQ-unsplash-1-scaled.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Liens de la semaine" srcset="https://korben.info/app/uploads/2020/02/david-hurley-MOM0aPcKWhQ-unsplash-1-scaled.jpg 2560w, https://korben.info/app/uploads/2020/02/david-hurley-MOM0aPcKWhQ-unsplash-1-300x205.jpg 300w, https://korben.info/app/uploads/2020/02/david-hurley-MOM0aPcKWhQ-unsplash-1-1024x699.jpg 1024w, https://korben.info/app/uploads/2020/02/david-hurley-MOM0aPcKWhQ-unsplash-1-768x525.jpg 768w, https://korben.info/app/uploads/2020/02/david-hurley-MOM0aPcKWhQ-unsplash-1-1536x1049.jpg 1536w, https://korben.info/app/uploads/2020/02/david-hurley-MOM0aPcKWhQ-unsplash-1-2048x1399.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" data-attachment-id="113027" data-permalink="https://korben.info/les-liens-de-la-semaine-lds-1.html/david-hurley-mom0apckwhq-unsplash-2" data-orig-file="https://korben.info/app/uploads/2020/02/david-hurley-MOM0aPcKWhQ-unsplash-1-scaled.jpg" data-orig-size="2560,1748" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="david-hurley-MOM0aPcKWhQ-unsplash" data-image-description="" data-medium-file="https://korben.info/app/uploads/2020/02/david-hurley-MOM0aPcKWhQ-unsplash-1-300x205.jpg" data-large-file="https://korben.info/app/uploads/2020/02/david-hurley-MOM0aPcKWhQ-unsplash-1-1024x699.jpg"></p>
+<p>Épisode à la bourre, je sais ! C&rsquo;est ça d&rsquo;avoir un emploi de ministre confiné. Parce qu&rsquo;entre les autres émissions à enregistrer, mes prochaines formations à tourner, les sablés au parmesan, le combat contre les envahisseurs et la gestion quotidienne de l&rsquo;Internet mondial, c&rsquo;est la fast life en ce moment.</p>
+
+
+
+<p>Et je sens que c&rsquo;est pareil pour vous. Maintenant que vous savez que vous allez pouvoir ressortir ce 11 mai je vous vois tous en train de courir dans tous les sens pour finir tout ce que vous avez remis à plus tard depuis 2 mois. Ma petite sélection des <a href="https://korben.info/search/lds">actus importantes de la semaine</a> va vous faire gagner un peu de temps. Comme ça vous pourrez planter vos légumes ce week-end tout en restant au courant de ce qui a fait bouger le web.</p>
+
+
+
+<figure class="wp-block-embed-youtube aligncenter wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<div class="entry-content-asset"><iframe title="LDS #12 - Port du masque, amie virtuelle, exploit iOS, StopCovid, Bug Bounty, sabotage de fibres..." width="800" height="450" src="https://www.youtube.com/embed/MuXonw72i8A?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div></figure>
+
+
+
+<p>Je commence par parler du projet de cloud dédié au gaming de Microsoft (xCloud) puis je passe sur l&rsquo;appli StopCovid, la surveillance qui se met en place peu à peu sous couvert de crise sanitaire, la surveillance made in Xiaomi, bidouiller votre Wii, les données perso des lecteurs du Figaro exposées, comment analyser un fichier binaire sous Linux et aussi comment se faire des amis virtuels (parce que c&rsquo;est important ça, les amis, enfin il parait).</p>
+
+
+
+<p>Oh le coup de la musique dans le casque pour garder le rythme et faire une vidéo plus rapide ? Fail. 1h25.</p>
+
+
+
+<p>Et si vous ne voulez pas rater mes prochains <a href="http://www.youtube.com/subscription_center?add_user=Korben00">best of de liens</a>, allez vous abonner sur mon Tube et cliquez la clochette pour être prévenu à chaque nouvelle vidéo. Parait qu’à chaque nouvel abonné c’est un scarabée girafe qui est sauvé au Canada. Si si.</p>
+<div id="Br7KnYve-2126346898" data-cfpa="113893"><p><a href="https://kbn.korben.info/privacy-cyb" target="_blank"><img src="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg" alt="" width="600" height="282" class="aligncenter size-full wp-image-113892" srcset="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg 600w, https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat-300x141.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+</div><script type="text/javascript">;new advadsCfpAd( 113893 );</script>]]></content:encoded>
+					
+					<wfw:commentRss>https://korben.info/liens-de-la-semaine-lds-12-port-du-masque-amie-virtuelle-exploit-ios-bug-bounty-sabotage-de-fibres.html/feed</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>MiniGalaxy &#8211; Un client Linux pour GoG</title>
+		<link>https://korben.info/minigalaxy-un-client-linux-pour-gog.html</link>
+					<comments>https://korben.info/minigalaxy-un-client-linux-pour-gog.html#respond</comments>
+		
+		<dc:creator><![CDATA[Korben]]></dc:creator>
+		<pubDate>Mon, 11 May 2020 07:00:00 +0000</pubDate>
+				<category><![CDATA[Infos]]></category>
+		<guid isPermaLink="false">https://korben.info/?p=114708</guid>
+
+					<description><![CDATA[J&#8217;adore Good Old Games, plus connu sous le nom de GoG. J&#8217;ai pas mal de jeux là bas, donc beaucoup que j&#8217;ai chopé gratuitement et même si je n&#8217;ai pas trop le temps de jouer, je continue régulièrement à entretenir ma forme sur SimCity 2000. De ce que j&#8217;ai pu &#8230; <a href="https://korben.info/minigalaxy-un-client-linux-pour-gog.html">Suite</a>]]></description>
+										<content:encoded><![CDATA[<p><img width="3298" height="924" src="https://korben.info/app/uploads/2020/04/korben20200417144706-10.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://korben.info/app/uploads/2020/04/korben20200417144706-10.png 3298w, https://korben.info/app/uploads/2020/04/korben20200417144706-10-300x84.png 300w, https://korben.info/app/uploads/2020/04/korben20200417144706-10-1024x287.png 1024w, https://korben.info/app/uploads/2020/04/korben20200417144706-10-768x215.png 768w, https://korben.info/app/uploads/2020/04/korben20200417144706-10-1536x430.png 1536w, https://korben.info/app/uploads/2020/04/korben20200417144706-10-2048x574.png 2048w" sizes="(max-width: 3298px) 100vw, 3298px" data-attachment-id="114710" data-permalink="https://korben.info/minigalaxy-un-client-linux-pour-gog.html/korben20200417144706-10" data-orig-file="https://korben.info/app/uploads/2020/04/korben20200417144706-10.png" data-orig-size="3298,924" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="korben20200417144706 10" data-image-description="" data-medium-file="https://korben.info/app/uploads/2020/04/korben20200417144706-10-300x84.png" data-large-file="https://korben.info/app/uploads/2020/04/korben20200417144706-10-1024x287.png"></p>
+<p>J&rsquo;adore Good Old Games, plus connu sous le nom de GoG. J&rsquo;ai pas mal de jeux là bas, donc beaucoup que j&rsquo;ai chopé gratuitement et même si je n&rsquo;ai pas trop le temps de jouer, je continue régulièrement à entretenir ma forme sur SimCity 2000.</p>
+
+
+
+<p>De ce que <a href="https://www.gog.com/wishlist/galaxy/release_the_gog_galaxy_client_for_linux">j&rsquo;ai pu comprendre ici</a>, même si GoG propose aussi des jeux pour Linux, ils ne proposent pas leur client GoG Galaxy, disponible uniquement pour Windows et macOS.</p>
+
+
+
+<figure class="wp-block-embed-youtube aligncenter wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<div class="entry-content-asset"><iframe title="What is GOG GALAXY 2.0? Bring all your games and friends in one place" width="800" height="450" src="https://www.youtube.com/embed/r2Lq3I8JECY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div></figure>
+
+
+
+<p>Dommage.</p>
+
+
+
+<p>Heureusement, il existe un client minimaliste pour disposer de ses jeux GoG sous Linux. Cet outil c&rsquo;est <a href="https://github.com/sharkwouter/minigalaxy">Minigalaxy que vous pouvez trouver ici.</a></p>
+
+
+
+<p>Une fois configuré avec votre compte, vous pourrez télécharger vos jeux et les lancer sans aucun souci. De plus, Minigalaxy permet de choisir la langue de vos jeux, de modifier l&rsquo;endroit où ils sont installés, sans parler de faire des recherches parmi vos jeux.</p>
+
+
+
+<figure class="wp-block-image alignwide size-large"><img data-attachment-id="114711" data-permalink="https://korben.info/minigalaxy-un-client-linux-pour-gog.html/korben20200417144706" data-orig-file="https://korben.info/app/uploads/2020/04/korben20200417144706.png" data-orig-size="2194,1410" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="korben20200417144706" data-image-description="" data-medium-file="https://korben.info/app/uploads/2020/04/korben20200417144706-300x193.png" data-large-file="https://korben.info/app/uploads/2020/04/korben20200417144706-1024x658.png" src="https://korben.info/app/uploads/2020/04/korben20200417144706-1024x658.png" alt="" class="wp-image-114711" srcset="https://korben.info/app/uploads/2020/04/korben20200417144706-1024x658.png 1024w, https://korben.info/app/uploads/2020/04/korben20200417144706-300x193.png 300w, https://korben.info/app/uploads/2020/04/korben20200417144706-768x494.png 768w, https://korben.info/app/uploads/2020/04/korben20200417144706-1536x987.png 1536w, https://korben.info/app/uploads/2020/04/korben20200417144706-2048x1316.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Pour ceux qui auraient acheté des jeux non compatibles avec Linux, Minigalaxy propose aussi un branchement avec Scummvm ou Dosbox et même Wine pour les plus motivés. C&rsquo;est top et c&rsquo;est disponible sur toutes les distribs.</p>
+
+
+
+<div data-cfpa="115049" id="Br7KnYve-1111297799"><hr />
+<blockquote>
+<h4><a href="https://bit.ly/3dLDRQv" target="_blank" rel="noopener noreferrer">Alimentation Officielle Noire 15.3W USB-C pour Raspberry Pi </a></h4>
+<p><a href="https://bit.ly/3dLDRQv" target="_blank" rel="noopener noreferrer"><img src="https://korben.info/app/uploads/2020/05/Screenshot_2020-05-11-Alimentation-Officielle-Noire-15-3W-USB-C-pour-Raspberry-Pi-4-Raspberry.png" alt="" width="300" height="" /></a></p>
+<p>Cette alimentation officielle est spécialement conçue pour le nouveau Raspberry Pi 4 Modèle B.</p>
+<p>Profitez de la nouvelle technologie USB Type C avec une puissance de 15.3W !</p>
+<p>Elle conviendra également à d&rsquo;autres appareils compatible avec l&rsquo;USB Type C</p></blockquote>
+</div><script type="text/javascript">;new advadsCfpAd( 115049 );</script>
+<div id="Br7KnYve-1628401174" data-cfpa="113893"><p><a href="https://kbn.korben.info/privacy-cyb" target="_blank"><img src="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg" alt="" width="600" height="282" class="aligncenter size-full wp-image-113892" srcset="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg 600w, https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat-300x141.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+</div><script type="text/javascript">;new advadsCfpAd( 113893 );</script>]]></content:encoded>
+					
+					<wfw:commentRss>https://korben.info/minigalaxy-un-client-linux-pour-gog.html/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Ghidra &#8211; Le Game Genie des hackers</title>
+		<link>https://korben.info/ghidra-le-game-genie-des-hackers.html</link>
+					<comments>https://korben.info/ghidra-le-game-genie-des-hackers.html#respond</comments>
+		
+		<dc:creator><![CDATA[Korben]]></dc:creator>
+		<pubDate>Fri, 08 May 2020 07:00:00 +0000</pubDate>
+				<category><![CDATA[Sécurité]]></category>
+		<category><![CDATA[gameboy]]></category>
+		<category><![CDATA[ghidra]]></category>
+		<category><![CDATA[reverse engineering]]></category>
+		<guid isPermaLink="false">https://korben.info/?p=114703</guid>
+
+					<description><![CDATA[J&#8217;aime bien Ghidra, l&#8217;outil de reverse engineering de la NSA. Et apparemment, nombreux sont les hackers à l&#8217;avoir adopté. La preuve avec le youtubeur StackSmashing qui a réalisé une vidéo super instructive dans laquelle il reverse la ROM d&#8217;un jeu GameBoy, en l&#8217;occurence Pokemon. C&#8217;est une vidéo éducative et il &#8230; <a href="https://korben.info/ghidra-le-game-genie-des-hackers.html">Suite</a>]]></description>
+										<content:encoded><![CDATA[<p><img width="800" height="458" src="https://korben.info/app/uploads/2020/04/55576-Game_Genie__USA___Unl_-1496104634.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://korben.info/app/uploads/2020/04/55576-Game_Genie__USA___Unl_-1496104634.jpg 800w, https://korben.info/app/uploads/2020/04/55576-Game_Genie__USA___Unl_-1496104634-300x172.jpg 300w, https://korben.info/app/uploads/2020/04/55576-Game_Genie__USA___Unl_-1496104634-768x440.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" data-attachment-id="114704" data-permalink="https://korben.info/ghidra-le-game-genie-des-hackers.html/55576-game_genie__usa___unl_-1496104634" data-orig-file="https://korben.info/app/uploads/2020/04/55576-Game_Genie__USA___Unl_-1496104634.jpg" data-orig-size="800,458" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="55576-Game_Genie__USA___Unl_-1496104634" data-image-description="" data-medium-file="https://korben.info/app/uploads/2020/04/55576-Game_Genie__USA___Unl_-1496104634-300x172.jpg" data-large-file="https://korben.info/app/uploads/2020/04/55576-Game_Genie__USA___Unl_-1496104634.jpg"></p>
+<p>J&rsquo;aime bien Ghidra, l&rsquo;outil de reverse engineering de la NSA. Et apparemment, nombreux sont les hackers à l&rsquo;avoir adopté. La preuve avec le youtubeur <strong>StackSmashing</strong> qui a réalisé une vidéo super instructive dans laquelle il reverse la ROM d&rsquo;un jeu GameBoy, en l&rsquo;occurence Pokemon.</p>
+
+
+
+<p>C&rsquo;est une vidéo éducative et il s&rsquo;amuse à changer des noms, ajouter des sprites, modifier des comportement&#8230;etc directement dans la ROM du jeu à l&rsquo;aide de Ghidra. </p>
+
+
+
+<figure class="wp-block-embed-youtube aligncenter wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<div class="entry-content-asset"><iframe title="How to reverse engineer &amp; patch a Game Boy ROM" width="800" height="450" src="https://www.youtube.com/embed/dQLp5i8oS3Y?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div></figure>
+
+
+
+<p>Je pense que si vous vous intéressez au Reverse ou au rétro gaming, ça devrait vous plaire&#8230; Le meilleur des 2 mondes.</p>
+<div id="Br7KnYve-305786336" data-cfpa="113893"><p><a href="https://kbn.korben.info/privacy-cyb" target="_blank"><img src="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg" alt="" width="600" height="282" class="aligncenter size-full wp-image-113892" srcset="https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat.jpg 600w, https://korben.info/app/uploads/2020/03/CyberGhost-VPN-nat-300x141.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+</div><script type="text/javascript">;new advadsCfpAd( 113893 );</script>]]></content:encoded>
+					
+					<wfw:commentRss>https://korben.info/ghidra-le-game-genie-des-hackers.html/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
 </rss>
